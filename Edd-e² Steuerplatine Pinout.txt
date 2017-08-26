@@ -1,0 +1,25 @@
+Steuerplatine Arduino Pins
+
+
+00 - SBUS RX
+01 - NC
+02 - [UDN] Licht Vorne       //Oder so
+03 - [UDN] Licht Hinten      //Oder so
+04 - [UDN] Blinker Links     //Oder so
+05 - [UDN] Blinker Rechts    //Oder so
+06 - NC
+07 - NC
+08 - [SPI] DAC ChipSelect
+09 - NRF Enable
+10 - [SPI] NRF ChipSelect
+11 - [SPI] MOSI
+12 - [SPI] MISO
+13 - [SPI] SCK
+A0 - Spannungsteiler Akkuspannung (Faktor 0,171)
+A1 - SicherheitsSchalter 1
+A2 - SicherheitsSchalter 2
+A3 - SicherheitsSchalter 3
+A4 - [I2C] SDA
+A5 - [I2C] SCL
+A6 - NC
+A7 - NC

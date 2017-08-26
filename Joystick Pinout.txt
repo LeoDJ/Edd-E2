@@ -1,0 +1,17 @@
+Joystick Signale
+
+01 - Spitzen während an (100Hz), HIGH während Ausschalt-Delay, keine Spitzen während Joystickschalter an [5V]
+02 - HIGH wenn an [7,2V]
+03 - HIGH wenn an [24V]
+04 - HIGH wenn an [6V]
+05 - HIGH wenn an [2,5V]
+06 - Joystick X [0-5V]
+07 - Joystick Y [0-5V, je nach Geschwindigkeitsstufe]
+08 - HIGH
+09 - LOW
+10 - Linker Blinker
+11 - Licht Signal
+12 - Rechter Blinker
+13 - 
+14 - SDA [LOW]
+15 - HIGH wenn an [24V]
