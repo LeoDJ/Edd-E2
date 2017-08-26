@@ -114,8 +114,8 @@ void parseData()
   if(ch3 > 75) //only use receiver when override switch good
   {
     butZ = true; //override safety button from nunchuck
-    //digitalWrite(hornPin, ch4>75); //enable horn, when channel 4 > 75 (83 is max)
-    digitalWrite(hornPin, checkSafeSwitch());
+    digitalWrite(hornPin, ch4>75); //enable horn, when channel 4 > 75 (83 is max)
+    //digitalWrite(hornPin, checkSafeSwitch());
     speedVal = constrain(map(ch1, 86, 905, -128, 127), -128, 127);
     steerVal = constrain(map(ch2, 86, 905, -128, 127), -128, 127);
   }
